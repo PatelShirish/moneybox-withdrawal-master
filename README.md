@@ -24,3 +24,14 @@ As part of this process however, you should look to refactor some of the code in
 Once you have completed test, zip up your solution, excluding any build artifacts to reduce the size, and email it back to our recruitment team.
 
 Good luck!
+
+## Changes
+1. Moved common business Logic for Transfer/Withdraw Money to methods in Account.cs. 
+2. Added necessary unit tests
+
+## Scope for improvements
+1. Decouple NoticationService from Account.cs using event driven design.
+2. Use UnitOfWork and put multiple updates under single transaction.
+3. Add Logging 
+
+
